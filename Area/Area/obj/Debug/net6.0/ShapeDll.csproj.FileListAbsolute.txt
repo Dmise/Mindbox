@@ -1,0 +1,12 @@
+A:\Programming\Portfolio\TestTasks\Mindbox\Practical\Area\Area\bin\Debug\net6.0\ShapeDll.deps.json
+A:\Programming\Portfolio\TestTasks\Mindbox\Practical\Area\Area\bin\Debug\net6.0\ShapeDll.dll
+A:\Programming\Portfolio\TestTasks\Mindbox\Practical\Area\Area\bin\Debug\net6.0\ShapeDll.pdb
+A:\Programming\Portfolio\TestTasks\Mindbox\Practical\Area\Area\obj\Debug\net6.0\ShapeDll.csproj.AssemblyReference.cache
+A:\Programming\Portfolio\TestTasks\Mindbox\Practical\Area\Area\obj\Debug\net6.0\ShapeDll.GeneratedMSBuildEditorConfig.editorconfig
+A:\Programming\Portfolio\TestTasks\Mindbox\Practical\Area\Area\obj\Debug\net6.0\ShapeDll.AssemblyInfoInputs.cache
+A:\Programming\Portfolio\TestTasks\Mindbox\Practical\Area\Area\obj\Debug\net6.0\ShapeDll.AssemblyInfo.cs
+A:\Programming\Portfolio\TestTasks\Mindbox\Practical\Area\Area\obj\Debug\net6.0\ShapeDll.csproj.CoreCompileInputs.cache
+A:\Programming\Portfolio\TestTasks\Mindbox\Practical\Area\Area\obj\Debug\net6.0\ShapeDll.dll
+A:\Programming\Portfolio\TestTasks\Mindbox\Practical\Area\Area\obj\Debug\net6.0\refint\ShapeDll.dll
+A:\Programming\Portfolio\TestTasks\Mindbox\Practical\Area\Area\obj\Debug\net6.0\ShapeDll.pdb
+A:\Programming\Portfolio\TestTasks\Mindbox\Practical\Area\Area\obj\Debug\net6.0\ref\ShapeDll.dll

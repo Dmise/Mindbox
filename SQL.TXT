@@ -1,0 +1,51 @@
+Drop Table Category;
+Drop Table Product;
+Drop Table ProductCategory;
+
+CREATE TABLE Category
+(
+	ID [int] IDENTITY(1,1) NOT NULL,
+	Name [char](20) NOT NULL,
+	Primary key (ID)
+)
+
+INSERT INTO Category(Name)
+VALUES('Undefined'),
+('Shoes'),
+('Hats'),
+('Clothes')
+
+
+CREATE TABLE Product
+(
+	ID [int] IDENTITY(1,1) NOT NULL,
+	Name [char](20) UNIQUE NOT NULL, 
+	Primary key (ID)
+)
+
+INSERT INTO Product(Name)
+VALUES('Elves boot'),
+('Warrior Helmet'), 
+('body armor'),
+('Laptop'),
+('Ball')
+
+
+
+CREATE TABLE ProductCategory
+(
+	ProductID [int] NOT NULL,
+	CategoryID [int] DEFAULT 1,
+	Primary key (ProductID, CategoryID),	
+)
+
+INSERT INTO ProductCategory(ProductID, CategoryID)
+VALUES(1,2),
+(2,3),
+(3,4),
+(4,1)
+
+
+SELECT Product.Name as 'Product Name', t1.Name as 'Category'  From Product LEFT JOIN 
+(SELECT * FROM Category JOIN ProductCategory on Category.ID = ProductCategory.CategoryID) t1 
+ON Product.ID = t1.ProductID

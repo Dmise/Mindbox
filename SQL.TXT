@@ -1,3 +1,12 @@
+Ответ на тестовое задание: 
+
+SELECT Product.Name as 'Product Name', t1.Name as 'Category'  From Product LEFT JOIN 
+(SELECT * FROM Category JOIN ProductCategory on Category.ID = ProductCategory.CategoryID) t1 
+ON Product.ID = t1.ProductID
+
+
+/* SQL запрос на создание тестовой таблицы */
+
 Drop Table Category;
 Drop Table Product;
 Drop Table ProductCategory;
@@ -46,6 +55,3 @@ VALUES(1,2),
 (4,1)
 
 
-SELECT Product.Name as 'Product Name', t1.Name as 'Category'  From Product LEFT JOIN 
-(SELECT * FROM Category JOIN ProductCategory on Category.ID = ProductCategory.CategoryID) t1 
-ON Product.ID = t1.ProductID
